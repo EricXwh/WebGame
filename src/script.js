@@ -63,6 +63,7 @@ function start() {
  function fail() {
    clearInterval(clock);
    flag = false;
+   speed = 6;
    confirm('Your final score is ' + parseInt($('score').innerHTML));
    var con = $('con');
    con.innerHTML = '';
